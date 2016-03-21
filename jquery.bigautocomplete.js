@@ -130,8 +130,8 @@
 						break;
 					}
 				}
-				//k键值不是功能键或是ctrl+c、ctrl+x时才触发自动补全功能
-				if(!isFunctionalKey && (!ctrl || (ctrl && k == 67) || (ctrl && k == 88)) ){
+				//k键值不是功能键或是ctrl+c、ctrl+x、ctrl+v时才触发自动补全功能
+				if(!isFunctionalKey && (!ctrl || (ctrl && k == 67) || (ctrl && k == 88) || (ctrl && k == 86) ) ){
 					var config = $this.data("config");
 					
 					var offset = $this.offset();
