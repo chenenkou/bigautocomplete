@@ -28,6 +28,7 @@ $("xxxxx").bigAutocomplete({data:[...],url:"",width:0,callback:{}})
 |   ---|    --- |
 |data(可选)：	|data：格式`{data:[{title:null,result:{}},{title:null,result:{}}]} `  url和data两个参数必须有一个，且只有一个生效，data优先。|
 |url(可选)：	|url为字符串，用来ajax后台获取数据，返回的数据格式为data参数一样。|
+|titleAlias(可选)：	|自定义下拉框的根据服务器数据某个字段显示，默认title。|
 |width(可选)：	|下拉框的宽度，默认使用输入框宽度。|
 |callback(可选)：|选中行后按回车或单击时回调的函数，用于返回选中行的其他数据及做一些操作。|
  
